@@ -4,7 +4,8 @@ Ce projet s’inscrit dans un contexte de traitement massif de données sur les 
 
 ---
 
-🧠 Objectifs  
+## 🧠 Objectifs  
+
 - Appliquer des techniques de Machine Learning sur des données Big Data  
 - Utiliser PySpark pour le traitement parallèle et distribué  
 - Répondre à 3 requêtes analytiques :
@@ -14,7 +15,8 @@ Ce projet s’inscrit dans un contexte de traitement massif de données sur les 
 
 ---
 
-🗃️ Données utilisées  
+## 🗃️ Données utilisées  
+
 - Données COVID-19 cumulées (01/2020 à 03/2023)  
 - 289 lignes × 1147 colonnes (dates, pays, coordonnées géographiques)  
 - Prétraitement :
@@ -24,7 +26,8 @@ Ce projet s’inscrit dans un contexte de traitement massif de données sur les 
 
 ---
 
-🛠️ Méthodologie  
+## 🛠️ Méthodologie  
+
 - **Nettoyage de données** : suppression des valeurs manquantes ou erronées (coordonnées nulles, valeurs négatives, etc.)  
 - **Feature engineering** :
   - Colonnes temporelles (`Year`, `Month`, `Week`, etc.)
@@ -35,7 +38,7 @@ Ce projet s’inscrit dans un contexte de traitement massif de données sur les 
 
 ---
 
-📊 Requêtes traitées
+## 📊 Requêtes traitées
 
 **Query 1 — Par pays et par mois :**  
 Calcul de la moyenne quotidienne des cas confirmés → représentation par histogrammes pour 8 pays clés (2020–2021)
@@ -48,7 +51,8 @@ Segmentation des 50 pays les plus affectés chaque mois → visualisation sur ca
 
 ---
 
-⏱️ Temps de traitement
+## ⏱️ Temps de traitement
+
 - Prétraitement complet : 99 sec  
 - Query 1 : 0.14 sec (agrégations simples)  
 - Query 2 : 0.30 sec (régression linéaire incluse)  
@@ -57,7 +61,8 @@ Segmentation des 50 pays les plus affectés chaque mois → visualisation sur ca
 
 ---
 
-📚 Technologies utilisées  
+## 📚 Technologies utilisées  
+
 - 🔥 Apache Spark (PySpark)  
 - 🐍 Python, Pandas  
 - 📦 Scikit-learn (régression linéaire)  
@@ -67,7 +72,8 @@ Segmentation des 50 pays les plus affectés chaque mois → visualisation sur ca
 
 ---
 
-📝 Conclusion  
+## 📝 Conclusion  
+
 Ce projet démontre la pertinence de Spark pour traiter efficacement des données de santé massives et complexes.  
 Les résultats des 3 requêtes sont conformes aux tendances réelles de la pandémie de COVID-19 entre 2020 et 2023.  
 Une prochaine étape serait l’automatisation de ces analyses avec des données mises à jour quotidiennement, ou la comparaison des temps de traitement avec une approche basée uniquement sur Pandas.
