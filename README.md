@@ -1,4 +1,5 @@
-🌍 Analyse Big Data & Machine Learning des cas COVID-19 avec PySpark  
+# 🌍 Analyse Big Data & Machine Learning des cas COVID-19 avec PySpark  
+
 Ce projet s’inscrit dans un contexte de traitement massif de données sur les cas confirmés de COVID-19 à l’échelle mondiale. Il met en œuvre les techniques de Machine Learning et de traitement distribué avec Apache Spark (via PySpark), afin de répondre à des requêtes analytiques complexes à partir d’un jeu de données volumineux et cumulatif.
 
 ---
